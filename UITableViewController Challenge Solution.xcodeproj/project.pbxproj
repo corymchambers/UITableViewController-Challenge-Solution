@@ -20,6 +20,7 @@
 		09C602F419A8DE9D003F4F5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C602D619A8DE9C003F4F5B /* UIKit.framework */; };
 		09C602FC19A8DE9D003F4F5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C602FA19A8DE9D003F4F5B /* InfoPlist.strings */; };
 		09C602FE19A8DE9D003F4F5B /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C602FD19A8DE9D003F4F5B /* UITableViewController_Challenge_SolutionTests.m */; };
+		09E7423B19AB60E600541FD4 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E7423A19AB60E600541FD4 /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		09C602F919A8DE9D003F4F5B /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		09C602FB19A8DE9D003F4F5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09C602FD19A8DE9D003F4F5B /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		09E7423919AB60E600541FD4 /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		09E7423A19AB60E600541FD4 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				09C602E119A8DE9C003F4F5B /* CCAppDelegate.h */,
 				09C602E219A8DE9C003F4F5B /* CCAppDelegate.m */,
 				09C602E419A8DE9C003F4F5B /* Main.storyboard */,
+				09E7423919AB60E600541FD4 /* CCTableViewController.h */,
+				09E7423A19AB60E600541FD4 /* CCTableViewController.m */,
 				09C602EA19A8DE9C003F4F5B /* Images.xcassets */,
 				09C602D919A8DE9C003F4F5B /* Supporting Files */,
 			);
@@ -247,6 +252,7 @@
 			files = (
 				09C602E319A8DE9C003F4F5B /* CCAppDelegate.m in Sources */,
 				09C602DF19A8DE9C003F4F5B /* main.m in Sources */,
+				09E7423B19AB60E600541FD4 /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +457,7 @@
 				09C6030319A8DE9D003F4F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09C6030419A8DE9D003F4F5B /* Build configuration list for PBXNativeTarget "UITableViewController Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +466,7 @@
 				09C6030619A8DE9D003F4F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
